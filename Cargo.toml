@@ -1,0 +1,7 @@
+[package]
+name = "combostew_cli"
+version = "0.1.0"
+authors = ["Martijn Gribnau <garm@ilumeo.com>"]
+edition = "2018"
+
+[dependencies]
