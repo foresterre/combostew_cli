@@ -5,5 +5,5 @@ authors = ["Martijn Gribnau <garm@ilumeo.com>"]
 edition = "2018"
 
 [dependencies]
-combostew = { path = "../combostew" }
+combostew = "0.1.2"
 clap = "2.32.0"
