@@ -1,8 +1,12 @@
 [package]
 name = "combostew_cli"
+description = "Shared cli skeleton for the 'sic' and 'stew' crates."
 version = "0.1.0"
 authors = ["Martijn Gribnau <garm@ilumeo.com>"]
 edition = "2018"
+license = "MIT"
+repository = "https://github.com/foresterre/combostew_cli"
+
 
 [dependencies]
 combostew = "0.2.0"
