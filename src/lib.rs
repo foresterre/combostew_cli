@@ -1,11 +1,14 @@
 use clap::{App, Arg, ArgMatches};
-use combostew::config::{Config, ConfigItem, FormatEncodingSettings, JPEGEncodingSettings, PNMEncodingSettings, SelectedLicenses};
+use combostew::config::{
+    Config, ConfigItem, FormatEncodingSettings, JPEGEncodingSettings, PNMEncodingSettings,
+    SelectedLicenses,
+};
 use combostew::io::{export, import};
 use combostew::operations::Operation;
-use combostew::processor::{ProcessMutWithConfig, ProcessWithConfig};
 use combostew::processor::encoding_format::EncodingFormatDecider;
 use combostew::processor::image_operations::ImageOperationsProcessor;
 use combostew::processor::license_display::LicenseDisplayProcessor;
+use combostew::processor::{ProcessMutWithConfig, ProcessWithConfig};
 
 pub fn get_app_skeleton(name: &str) -> App<'static, 'static> {
     App::new(name)
